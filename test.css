@@ -1,0 +1,93 @@
+/* Reset some default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+
+.nav a:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* Main container */
+.container {
+  background-color: #f3f4f6;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card sections */
+.card {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Button styling */
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+/* Footer */
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Box Model Visualization (for demonstration) */
+.card,
+.container,
+.header,
+.footer {
+  outline: 1px dashed #999; /* visualize boundaries */
+}
